@@ -19,4 +19,5 @@ executable nic-gen
   -- other-modules:       
   build-depends:       base ==4.6.*,
                        xdg-basedir >= 0.2.2,
-                       directory >= 1.2.6.3
+                       directory >= 1.2.6.3,
+                       random >= 1.0.1.1
