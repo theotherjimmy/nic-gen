@@ -17,4 +17,5 @@ cabal-version:       >=1.8
 executable nic-gen
   main-is:             NicGen.hs
   -- other-modules:       
-  build-depends:       base ==4.6.*
+  build-depends:       base ==4.6.*,
+                       xdg-basedir >= 0.2.2
